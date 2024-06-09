@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+<body>
+    
+ <!-- Header-section -->
+    <nav class="navbar">
+        <div class="header">Harish</div>
+        <div class="navbar-links">
+                <p><a href="#home">About</a></p>
+                <p><a href="#projects">Projects</a></p>
+                <p><a href="#skills-section">Skills</a></p>
+                <p><a href="#contact-section">Contact</a></p>
+        </div>
+    <!-- Mobile view -->    
+        <div class="burger">
+            <i class="fa-solid fa-bars" onclick="sidemenu()"></i>
+        </div>
+    </nav>
+
+    <!-- Mobile view -->
+
+    <div class="side-navbar">
+        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+         <div class="side-navbar-links">
+            <p><a href="#home">About</a></p>
+            <p><a href="#projects">Projects</a></p>
+            <p><a href="#skills-section">Skills</a></p>
+            <p><a href="#contact-section">Contact</a></p>
+         </div> 
+    </div>
+
+ <!-- Content-section    -->
+   <section id="home">
+     <div class="main-page">
+      <div class="main-page-content">
+        <img src="./Images/Profile image.jpg" class="mypic" alt="Profile-pic">
+       </div>
+          <div class="intro">
+              <p class="sub">Hello, I'm<p>
+                  <h2 class="sub-title">Harish</h2>
+                  <h4 class="sub-role">Frontend Developer</h4>
+                  <div class="about-me">
+                    <p>A passionate and results-oriented individual with 3+ years of experience in Sutherland as a medical billing associate, seeking to leverage strong analytical and problem-solving skills to transition into a front-end developer role. Highly proficient in learning new technologies and eager to contribute to building user-friendly and interactive web applications.</p>
+                  </div>
+          </div>
+          
+     </div>
+   </section>
+
+<!-- projects-section -->
+
+     <div class="projects" id="projects">
+         <div class="project-header">
+            <h1>Projects</h1>
+         </div>
+
+             <div class="project-container">
+                
+                <div class="project1">
+                 <img src="./Images/Shopzone project2.jpg">
+                </div>
+             
+                <!-- <div class="project2">
+                    <img src="./Images/Shopzone project2.jpg">
+                   </div> -->
+             </div>
+     </div>
+
+<!-- skills -->
+     
+<div class="skills" id="skills-section">
+           <div class="skills-header">
+               <h2>Skills</h2>
+            </div>
+              <div class="skills-container">
+                    <div class="skills-list">
+                        <p class="skills-para">As a self-taught front-end developer, I've immersed myself in the world of web development, mastering the essentials of HTML, CSS, and JavaScript. Through hands-on learning and a passion for creating engaging user experiences</p>
+                       <img src="./Images/logo.png" class="logo">
+                    </div>
+                 </div>    
+</div>
+
+
+ <!-- contact-section -->
+    <footer class="contact-footer" id="contact-section">
+        <div class="contact">
+            <h1 class="contact-header">Contact Me</h1>
+            <div class="contact-container">
+                <div class="mail">
+                    <h3 class="mail-id">Harish.s@skiff.com</h3>
+                </div>
+    
+                <div class="mail">
+                    <h3 class="mail-id">+91 9500113168</h3>
+                </div>
+            </div>
+                  <div class="copyright">
+                    <p>Copyright &copy; 2024 Harish. All Rights Reserved.</p>
+                  </div>
+
+           </div>
+    </footer>
+       
+    <script src="script.js"> 
+
+    </script>
+</body>
+</html>
